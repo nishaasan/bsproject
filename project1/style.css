@@ -1,0 +1,78 @@
+body {
+   background-color:#c5d4e3; 
+  color: #333;
+}
+
+.hero-section {
+  background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.feature-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.step-box {
+  background: white;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.step-circle {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #0d6efd; 
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+
+.price-card {
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+.price-card:hover {
+  transform: scale(1.03);
+}
+
+.how{
+    background-color:#c5d4e3;
+}
+
+.pricing{
+     background-color:#c5d4e3;
+}
